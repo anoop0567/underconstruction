@@ -3,42 +3,35 @@
 }
 
 body {
-    background: #355C7D;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-repeat: repeat;
-    background-size: cover;
     height: 100%;
-    background-repeat: no-repeat;
 }
-
 main h1 {
     text-align: center;
     font-size: 6.8125vw;
-    color: white;
+    color: #000000;
     font-family: 'Suez One', serif;
     font-weight: lighter;
     line-height: 1.0em;
     opacity: 0.8;
     margin: 7.8125vw;
     letter-spacing: .08em;
+    opacity: 0;
 }
 
 main p {
     text-align: center;
     font-size: 1.5625vw;
     letter-spacing: .6em;
-    color: white;
+    color: #000000;
     opacity: .8;
+    opacity: 0;
 }
 
 
 table {
     width: 45vw;
     margin: 0 auto;
+    opacity: 0;
 }
 
 .con {
@@ -75,17 +68,19 @@ table {
 
 .zero p {
     text-align: left;
+    color: #000000;
     opacity: .8;
 }
 
 .full {
     position: relative;
     top: 4vw;
+    opacity: .8;
 }
 
 .full p {
     text-align: right;
-    opacity: .8;
+    color: #000000;
 }
 
 .social {
@@ -93,7 +88,7 @@ table {
     margin: 0 auto;
     overflow: hidden;
     margin-top: 6vw;
-    opacity: .6;
+    opacity: 0;
 }
 
 .social a {
@@ -103,24 +98,24 @@ table {
     height: 6.7890625vw;
     color: white;
     text-decoration: none;
-    margin: 1vw;
+    margin: .8vw;
     padding: 0px;
-    border: 0.17vw solid #fff;
+    border: 0.29296875vw solid #fff;
     text-align: center;
-    font-size: 3.8828125vw;
+    font-size: 3.5828125vw;
     border-radius: 50%;
     transition: .5s opacity;
 }
 
 .social a:hover {
     opacity: .5;
-    color: white;
+    color: #000000;
     text-decoration: none;
 }
 
 .social a i {
     line-height: 6.7890625vw;
-    color: white;
+    color: #fff;
 }
 
 .facebook {
@@ -141,13 +136,14 @@ table {
 
 footer {
     margin: 1.953125vw;
+    opacity: 0;
 }
 
 footer p {
     font-size: 1.5625vw;
     font-weight: lighter;
     text-align: center;
-    color: #fff;
+    color: #000000;
     opacity: .8;
 }
 
